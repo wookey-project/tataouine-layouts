@@ -448,8 +448,8 @@
         { "name":"CAN2_SCE_IRQ", "value":"82" }
       ],
       "gpios": [
-        { "name":"CAN1_TD", "port":"GPIO_PB", "pin":"13" },
-        { "name":"CAN1_RD", "port":"GPIO_PB", "pin":"12" }
+        { "name":"CAN2_TD", "port":"GPIO_PB", "pin":"13" },
+        { "name":"CAN2_RD", "port":"GPIO_PB", "pin":"12" }
       ],
       "read_only": "false",
       "permission": "PERM_RES_DEV_BUSES",
