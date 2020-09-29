@@ -421,14 +421,14 @@
       "size":"0x400",
       "memory_subregion_mask":"0",
       "irqs": [
-        { "name":"CAN1_TX_IRQ", "value":"35" },
+        { "name":"CAN1_TX_IRQ",  "value":"35" },
         { "name":"CAN1_RX0_IRQ", "value":"36" },
         { "name":"CAN1_RX1_IRQ", "value":"37" },
         { "name":"CAN1_SCE_IRQ", "value":"38" }
       ],
       "gpios": [
-        { "name":"CAN1_TX", "port":"GPIO_PD", "pin":"1" },
-        { "name":"CAN1_RX", "port":"GPIO_PD", "pin":"0" }
+        { "name":"CAN1_RX", "port":"GPIO_PD", "pin":"0" },
+        { "name":"CAN1_TX", "port":"GPIO_PD", "pin":"1" }
       ],
       "read_only": "false",
       "permission": "PERM_RES_DEV_BUSES",
@@ -442,14 +442,14 @@
       "size":"0x400",
       "memory_subregion_mask":"0",
       "irqs": [
-        { "name":"CAN2_TX_IRQ", "value":"79" },
+        { "name":"CAN2_TX_IRQ",  "value":"79" },
         { "name":"CAN2_RX0_IRQ", "value":"80" },
         { "name":"CAN2_RX1_IRQ", "value":"81" },
         { "name":"CAN2_SCE_IRQ", "value":"82" }
       ],
       "gpios": [
-        { "name":"CAN2_TX", "port":"GPIO_PB", "pin":"13" },
-        { "name":"CAN2_RX", "port":"GPIO_PB", "pin":"12" }
+        { "name":"CAN2_RX", "port":"GPIO_PB", "pin":"5" },
+        { "name":"CAN2_TX", "port":"GPIO_PB", "pin":"6" }
       ],
       "read_only": "false",
       "permission": "PERM_RES_DEV_BUSES",
