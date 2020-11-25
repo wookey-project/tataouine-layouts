@@ -362,7 +362,7 @@
       "name":"usb-otg-hs",
       "type":"block",
       "address":"0x40040000",
-      "size":"0x4000",
+      "size":"0x40000",
       "memory_subregion_mask":"0",
       "irqs": [
           { "name":"OTG_HS_IRQ", "value":"93" },
