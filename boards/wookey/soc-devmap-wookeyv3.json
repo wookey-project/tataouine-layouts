@@ -1153,6 +1153,17 @@
       "enable_register_bits": ["0"]
   },
   {
+      "name":"backup-sram",
+      "type":"block",
+      "address":"0x40024000",
+      "size":"0x1000",
+      "memory_subregion_mask":"0",
+      "read_only": "true",
+      "permission": "PERM_RES_TSK_RESET",
+      "enable_register":"0",
+      "enable_register_bits": ["0"]
+  },
+  {
       "name":"smartcard",
       "type":"peripheral",
       "address":"0",
