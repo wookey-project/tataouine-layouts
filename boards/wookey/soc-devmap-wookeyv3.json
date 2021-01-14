@@ -1153,13 +1153,24 @@
       "enable_register_bits": ["0"]
   },
   {
-      "name":"backup-sram",
+      "name":"bsram-keybag",
       "type":"block",
       "address":"0x40024000",
-      "size":"0x1000",
+      "size":"0x400",
       "memory_subregion_mask":"0",
       "read_only": "true",
       "permission": "PERM_RES_DEV_CRYPTO_CFG",
+      "enable_register":"0",
+      "enable_register_bits": ["0"]
+  },
+  {
+      "name":"bsram-flashkey",
+      "type":"block",
+      "address":"0x40024400",
+      "size":"0x400",
+      "memory_subregion_mask":"0",
+      "read_only": "true",
+      "permission": "PERM_RES_TSK_UPGRADE",
       "enable_register":"0",
       "enable_register_bits":["0"]
   },
