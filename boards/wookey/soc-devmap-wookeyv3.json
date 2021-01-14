@@ -1172,7 +1172,7 @@
       "read_only": "true",
       "permission": "PERM_RES_TSK_UPGRADE",
       "enable_register":"0",
-      "enable_register_bits": ["0"]
+      "enable_register_bits":["0"]
   },
   {
       "name":"smartcard",
