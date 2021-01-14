@@ -1159,9 +1159,9 @@
       "size":"0x1000",
       "memory_subregion_mask":"0",
       "read_only": "true",
-      "permission": "PERM_RES_TSK_RESET",
+      "permission": "PERM_RES_DEV_CRYPTO_CFG",
       "enable_register":"0",
-      "enable_register_bits": ["0"]
+      "enable_register_bits":["0"]
   },
   {
       "name":"smartcard",
@@ -1235,16 +1235,5 @@
         { "name":"TOUCH_BUSY", "port":"GPIO_PD", "pin":"11" },
         { "name":"TOUCH_EXTI", "port":"GPIO_PD", "pin":"12" }
       ]
-  },
-  {
-      "name":"backup-sram",
-      "type":"block",
-      "address":"0x40024000",
-      "size":"0x1000",
-      "memory_subregion_mask":"0",
-      "read_only": "true",
-      "permission": "PERM_RES_DEV_CRYPTO_CFG",
-      "enable_register":"0",
-      "enable_register_bits":["0"]
   }
 ]
